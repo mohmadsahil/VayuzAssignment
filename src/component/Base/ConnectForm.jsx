@@ -24,7 +24,7 @@ export const ConnectForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#131313] text-white flex items-center justify-center ml-[140px]">
+    <div className="md:min-h-screen bg-[#131313] text-white flex items-center justify-center md:ml-[140px] ml-0">
       <div className="w-full max-w-md">
         <h2 className="text-6xl" style={{ fontFamily: '"Playfair Display"' }}>
           Connect

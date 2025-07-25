@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <>
       <div className="bg-[#131313] py-4 pb-16">
-        <ul className="flex gap-8 px-6 text-sm text-white">
+        <ul className="flex gap-8 px-6 text-sm text-white md:pt-0 pt-5">
           {links.map((link, index) => (
             <li key={index} className="hover:underline cursor-pointer">
               {link}

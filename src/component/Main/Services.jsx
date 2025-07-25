@@ -70,7 +70,7 @@ export const ServiceSection = () => {
               />
             ))}
           </div>
-          <div className="pr-6">
+          <div className="pr-6 hidden md:flex">
             <img
               src={IMAGE.PhonePCImg}
               alt="Background Code"

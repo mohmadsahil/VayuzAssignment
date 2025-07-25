@@ -11,15 +11,15 @@ export const Home = () => {
   return (
     <>
       <div className="flex">
-        <div className="w-[17%] bg-[#131313] border-r border-white">
+        <div className="hidden md:block md:w-[17%] bg-[#131313] border-r border-white">
           <LeftSection />
         </div>
-        <div className="w-[83%]">
+        <div className="wd-[83%] w-[100%]">
           <Header />
           <HeroSection />
           <ServiceSection />
           <ConnectSection />
-            <Footer />
+          <Footer />
         </div>
       </div>
     </>

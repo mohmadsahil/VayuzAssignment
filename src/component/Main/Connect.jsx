@@ -7,8 +7,8 @@ export const ConnectSection = () => {
   return (
     <section className="bg-[#131313] text-white px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div>
-          <nav className="flex space-x-12 mb-8 text-sm font-light">
+        <div className="order-1 md:order-1">
+          <nav className="flex md:space-x-12 space-x-8 mb-8 text-sm font-light">
             {navLinks.map((link, index) => (
               <a key={index} href="#" className="hover:underline">
                 {link}
@@ -24,7 +24,7 @@ export const ConnectSection = () => {
           <p className="text-2xl font-medium">vayuz.com</p>
         </div>
 
-        <div>
+        <div className="order-2 md:order-2">
           <ConnectForm />
         </div>
       </div>
